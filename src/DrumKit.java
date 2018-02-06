@@ -28,17 +28,18 @@ public class DrumKit extends MouseAdapter {
 
     private void getGoing() throws MalformedURLException {
    	 // 1. Make a JFrame variable and initialize it using "new JFrame()"
-   	 
+   	 JFrame Boi = new JFrame();
    	 // 2. Make the frame visible
-   	 
+   	 Boi.setVisible(true);
    	 // 3. Set the size of the frame
-   	 
+   	 Boi.setSize(800, 800);
    	 // 4. Set the title of the frame
-   	 
+   	 Boi.setTitle("Drum Kit Kid");
    	 // 5. Make a JPanel and initialize it.
-   	 
+   	 JPanel Why = new JPanel();
    	 // 6. Add the panel to the frame. (The panel is invisible.)
-    
+    Why.setVisible(false);
+    Boi.add(Why);
    	 // 7. Download an image of a drum from the Internet. Drop it into your Eclipse project under "default package".
    	 // 8. Put the name of your image in a String variable.
     
